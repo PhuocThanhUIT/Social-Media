@@ -6,6 +6,7 @@
     align-items: center; /*Căng giữa các item trong topbar*/
     position: sticky; /*Bám dính vào giao diện cha*/
     top: 0;/*đi kèm cùng position sticky: top,bottom,left, right Bám dính vào top*/
+    z-index: 999;
 }
 /*Thuộc tính flex ở left,center,right Chia Container thành 12 phần*/
 .topbarLeft{
